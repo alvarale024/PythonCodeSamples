@@ -1,0 +1,13 @@
+#Alejandro Alvarez
+#5/15/2023
+#The program calculats a users BMI
+
+#The users inputs weight and height
+weight = float(input("Enter your weight in kilograms: "))
+height = float(input("Enter your height in meters: "))
+
+#BMI calculation
+bmi = weight / (height ** 2)
+
+#Users BMI
+print("Your BMI is:", bmi)
