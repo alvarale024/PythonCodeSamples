@@ -1,0 +1,15 @@
+#Alejandro Alvarez
+#5/14/2023
+#The program computes the area of a circle
+
+#Define the value of pi
+pi = 3.14159
+
+#The users radius input
+radius = float(input("Enter the radius of the circle: "))
+
+#Formula for calculating the area of a circle
+area = pi * (radius ** 2)
+
+#The area of the circle
+print("The area of the circle is:", area)
